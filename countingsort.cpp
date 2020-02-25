@@ -29,7 +29,7 @@ int main(void)
 
     int sortedArray[n];
 
-    // Put elements to right place
+    // Put element's to right place
     for (i = n - 1; i >= 0; --i)
     {
         sortedArray[--count[arr[i]]] = arr[i];
